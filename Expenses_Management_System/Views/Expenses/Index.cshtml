@@ -1,0 +1,167 @@
+﻿@model IEnumerable<Expenses_Management_System.Models.expenses_tbl>
+
+@{
+    ViewBag.Title = "Index";
+<<<<<<< HEAD
+=======
+    Layout = "~/Views/Shared/Master.cshtml";
+>>>>>>> 2d83cd4 (Add project files.)
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<<<<<<< HEAD
+<table class="table">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.user_tbl.user_name)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.monthly_income)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category_tbl.cat_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sub_category_tbl.subcat_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.item_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.item_qty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total_price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.remark)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sdate)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.created_on)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created_by)
+        </th>*@
+
+
+        <th>Action</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.user_tbl.user_name)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.monthly_income)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.category_tbl.cat_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sub_category_tbl.subcat_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.item_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.item_qty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total_price)
+        </td>
+        <td>
+=======
+<table class="table table-bordered red-border text-center">
+    <thead>
+        <tr>
+            <th>#</th>
+
+            <th>Category </th>
+            <th>Sub Category</th>
+            <th>Sub-Sub Category </th>
+            <th>Item_Name </th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    @{
+        // Initialize the counter variable
+        int itemCount = 0;
+        foreach (var item in Model)
+        {
+            itemCount++;
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => itemCount)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.category_tbl.cat_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sub_category_tbl.subcat_name)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.sub_sub_category_tbl.sub_sub_catName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.item_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.item_qty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total_price)
+            </td>
+            @*<td>
+>>>>>>> 2d83cd4 (Add project files.)
+            @Html.DisplayFor(modelItem => item.remark)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sdate)
+<<<<<<< HEAD
+        </td>
+        @*<td>
+=======
+        </td>*@
+            @*<td>
+>>>>>>> 2d83cd4 (Add project files.)
+            @Html.DisplayFor(modelItem => item.created_on)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.created_by)
+        </td>*@
+
+
+<<<<<<< HEAD
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.exp_id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.exp_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.exp_id })
+        </td>
+    </tr>
+}
+
+</table>
+=======
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.exp_id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.exp_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.exp_id })
+            </td>
+        </tr>
+            }
+        }
+
+    </table>
+>>>>>>> 2d83cd4 (Add project files.)

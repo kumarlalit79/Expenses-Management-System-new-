@@ -3,11 +3,11 @@
 
 ## 🔗 Demo
 <a href="https://youtu.be/slUmzh40Ylw">
-  <img src="https://img.youtube.com/vi/slUmzh40Ylw/maxresdefault.jpg" alt="EMS Demo Video" width="800">
+  <img src="https://img.youtube.com/vi/slUmzh40Ylw/0.jpg" alt="EMS Demo Video" width="800">
 </a>
 
 ### [🎬 Click here to watch the live demo video!](https://youtu.be/slUmzh40Ylw)
-<!-- Add screenshots here -->
+
 
 ## 📋 Description
 The Expenses Management System (EMS) is a comprehensive web application designed to help individuals gain complete control over their finances. It allows users to track their spending habits by organizing expenses into default or customizable categories, subcategories, and sub-subcategories. With dynamic real-time charts, advanced time-based filtering, and detailed payment mode insights, EMS makes personal finance management intuitive, effective, and tailored to your unique spending patterns.

@@ -2,7 +2,7 @@
 > Manage, track, and visualize your daily and monthly expenses effortlessly.
 
 ## 🔗 Demo
-<!-- Add live link or demo video here -->
+[Click here to watch the demo video](https://youtu.be/slUmzh40Ylw)
 <!-- Add screenshots here -->
 
 ## 📋 Description

@@ -2,7 +2,11 @@
 > Manage, track, and visualize your daily and monthly expenses effortlessly.
 
 ## 🔗 Demo
-[Click here to watch the demo video](https://youtu.be/slUmzh40Ylw)
+<a href="https://youtu.be/slUmzh40Ylw">
+  <img src="https://img.youtube.com/vi/slUmzh40Ylw/maxresdefault.jpg" alt="EMS Demo Video" width="800">
+</a>
+
+### [🎬 Click here to watch the live demo video!](https://youtu.be/slUmzh40Ylw)
 <!-- Add screenshots here -->
 
 ## 📋 Description
